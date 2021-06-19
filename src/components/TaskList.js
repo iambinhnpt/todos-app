@@ -11,6 +11,7 @@ export default class TaskList extends Component {
           </tr>
         </thead>
         <tbody>
+          {console.log(this.props.tasks)}
           {this.props.tasks.map((item, index) => {
             return (
               <TaskItem
